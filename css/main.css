@@ -27,7 +27,7 @@
 
 .menu li a {
     text-decoration: none;
-    font: 14px "Playfair Display", Regular;
+    font: 14px "Playfair Display", sans-serif;
 }
 
 .menu li a:hover {
@@ -85,12 +85,12 @@
 
 .heading {
     color:  #626262;
-    font: 30px "Playfair Display", Regular;
+    font: 14px "Playfair Display", sans-serif;
 }
 
 .box-img p {
     color:  #626262;
-    font-family: "Playfair Display", Regular;
+    font: 14px "Playfair Display", sans-serif;
     line-height: 24px;
 }
 
