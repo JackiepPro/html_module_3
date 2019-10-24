@@ -15,14 +15,17 @@
 .menu {
     list-style-type: none;
     text-align: center;
-    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 .menu li {
     display: inline-block;
-    padding: 0 60.5px 0 60.5px;
+    padding: 0 124px 0 0;
+}
+
+.menu li:last-child {
+    padding: 0;
 }
 
 .menu li a {
@@ -85,7 +88,7 @@
 
 .heading {
     color:  #626262;
-    font: 14px "Playfair Display", sans-serif;
+    font: 30px "Playfair Display", sans-serif;
 }
 
 .box-img p {
@@ -117,7 +120,7 @@
     background-color: #03a9f4;
     color: #fff;
     cursor: pointer;
-    transform: all 0.5s;
+    transition: all 0.3s ease-out;
     border: 1px solid transparent;
 }
 /* end button */
