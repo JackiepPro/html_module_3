@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .wrap {
     max-width: 901px;
     width: 100%;
@@ -15,8 +20,6 @@
 .menu {
     list-style-type: none;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 .menu li {
@@ -38,9 +41,6 @@
 }
 
 /* end header */
-
-
-
 .menu li a,
 .box-img p:nth-of-type(1) {
     text-transform: uppercase;
@@ -58,7 +58,6 @@
 
 
 /* start content */
-
 .box-img {
     display: inline-block;
     width: 419px;
@@ -74,6 +73,8 @@
 
 .box-img p:nth-of-type(1) {
     color: #b4ad9e;
+    margin: 32px 0 28px;
+    font-family: "Playfair Display";
 }
 
 .image {
